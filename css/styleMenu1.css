@@ -1,0 +1,39 @@
+/*-----------------MENU----------------*/
+nav
+{
+    background: rgba(0,0,0,0.2);
+    border-radius: 0.5em;
+    color: #EEE;
+    font-size: 1.2em;
+    padding: 0 5%;
+    margin: -0.5em 0;
+    left: 0;
+}
+nav ul
+{
+    list-style: none;
+    padding: 0 0;
+}
+nav ul li
+{
+    display: inline-block;
+}
+nav ul li a
+{
+    background: #d23d15;
+    border-radius: 0.5em;
+    color: white;
+    display: inline-block;
+    margin: 0 1em 0 1em;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+    transition: all .1s ease;
+    -webkit-transition: all 0.1s ease;
+}
+nav ul li a:hover
+{
+    background: white; 
+    color: black;
+    transform: scale(1.2) rotate(-10deg);
+    -webkit-transform: scale(1.2) rotate(-10deg);;
+}
